@@ -17,10 +17,16 @@
  padding-top: 100px !important;
  }
 
- #Recent-Works{
-    
-     
- }
+@media only screen and (max-width: 768px) {
+    #Home {
+        background-image: url('image-mobile.jpg') !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        padding-bottom: 100px !important;
+        padding-top: 100px !important;
+    }
+}
 .landing-text{
     margin-top: 30% !important;
 }
@@ -138,56 +144,64 @@
     border-radius: 2% !important;
 }
 .fa-mobile-alt {
-    font-size: 40px !important;
+    font-size: 35px !important;
     color: black !important;
 }
 .fa-mobile-alt:hover {
-    font-size: 40px !important;
+    font-size: 35px !important;
     color: black !important;
     color:#226089 !important;
     animation: ease-in 2s !important;
 }
 .fa-envelope {
-    font-size: 40px !important;
+    font-size: 35px !important;
     color: black !important;
 }
 .fa-envelope:hover {
-    font-size: 40px !important;
+    font-size: 35px !important;
     color: black !important;
     color:#226089 !important;
 }
 .fa-skype{
-    font-size: 40px !important;
+    font-size: 35px !important;
     color: black !important;
 }
 .fa-skype:hover {
-    font-size: 40px !important;
+    font-size: 35px !important;
     color:#226089 !important;
 }
 .fa-facebook{
-    font-size: 40px !important;
+    font-size: 35px !important;
     color: black !important;
 }
 .fa-facebook:hover {
-    font-size: 40px !important;
+    font-size: 35px !important;
     color:#226089 !important;
 }
 .fa-linkedin{
-    font-size: 40px !important;
+    font-size: 35px !important;
     color: black !important;  
 }
 .fa-linkedin:hover {
-    font-size: 40px !important;
+    font-size: 35px !important;
     color:#226089 !important;
 }
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
 }
 .text-social-media-link{
     font-family: Raleway !important;
     font-weight: 500 !important;
-    font-size: 28px !important;
+    font-size: 25px !important;
 }
