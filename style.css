@@ -9,7 +9,7 @@
    padding-top: 100px !important;
 }
 #Home{
- background-image: url('image-landing.png') !important;
+ background-image: url('image-landing-2.png') !important;
  background-position: center !important;
  background-repeat: no-repeat !important;
  background-size: cover !important;
@@ -19,7 +19,7 @@
 
 @media only screen and (max-width: 768px) {
     #Home {
-        background-image: url('image-mobile.jpg') !important;
+        background-image: url('image-mobile.png') !important;
         background-position: center !important;
         background-repeat: no-repeat !important;
         background-size: cover !important;
